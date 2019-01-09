@@ -10,6 +10,9 @@ __date__ = "3/27/2018"
 
 
 import threading, json, string, random, logging, os
+import sys
+
+sys.path.append("./primerDAFT")
 import primerDAFT
 
 # create log folder if it doesnt exist yet
